@@ -46,7 +46,7 @@ img{
     background-color: chocolate;
     text-align: center;
     border: 2px solid rgb(126, 64, 19);
-    border-radius: 30%;
+    border-radius: 30px;
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
