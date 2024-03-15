@@ -67,3 +67,11 @@ h4{
 #subir{
     margin-bottom: 10px;
 }
+
+#div-quadrinhos{
+   background-image: url('../img/refri.png');
+   height: 50px;
+   width: 100px;
+   margin:20px 60px 40px 20px ;
+   background-repeat: no-repeat;
+}
