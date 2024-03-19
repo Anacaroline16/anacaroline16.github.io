@@ -67,11 +67,27 @@ h4{
 #subir{
     margin-bottom: 10px;
 }
+.maior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#div-quadrinhos, #div-quadrinhos1, #div-quadrinhos2{
+    width: 500px;
+    height: 500px ;
+    margin:20px 30px 40px 50px ;
+    border: 20px 30px 40px 50px ;
+}
+.img-comida {
 
-#div-quadrinhos{
-   background-image: url('../img/refri.png');
-   height: 50px;
-   width: 100px;
-   margin:20px 60px 40px 20px ;
-   background-repeat: no-repeat;
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+    border:  1px solid rgb(0, 0, 0);
+    border-radius: 5%; 
+}
+.p-comida {
+    position: relative;
+    top: 0;
+    
 }
