@@ -19,11 +19,11 @@ body{
 }
 h1{
     margin-top: 20px;
-    margin-bottom: 50px;
-
+    margin-bottom: 20px;
     font-style: italic;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 p{
@@ -41,13 +41,24 @@ li{
     margin-bottom: 10px;
 }
 img{
+    
     display: flex;
-    margin: auto;
+
     border:  1px solid rgb(0, 0, 0);
     border-radius: 5%;
     right: 50%;
     width: 50%;
-	display: inline-block;
+    justify-content: center;
+    /* position: absolute; */
+    margin:0 auto;
+    /* top: 50%; */
+    /* left: 25%; */
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+
+
+    
 
 }
 
@@ -64,6 +75,8 @@ img{
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 #div-central {
@@ -93,7 +106,7 @@ h4{
 #div-quadrinhos, #div-quadrinhos1, #div-quadrinhos2{
     width: 600px;
     height: 550px ;
-    margin:20px 30px 40px 50px ;
+    margin:10px 30px 40px 50px ;
     border: 20px 30px 40px 50px ;
 }
 .img-comida {
@@ -110,13 +123,16 @@ h4{
     text-align: center;
     font-size: larger;
     font-weight: bold;
-    margin-right: 75px;
+    /* margin-right: 75px; */
+    
     
 }
 #abaixarIngre, #abaixarIngre1, #abaixarIngre{
-    margin-top: 15px;
+    margin-top: 20px;
 }
-
+#margemLista{
+    margin-left: 25px;
+}
 
 
 
@@ -149,6 +165,7 @@ header{
     height: 20%;
     border: none;
     cursor: pointer;
+    margin:auto 20px;
 }
 #menu {
     width: 50%;
@@ -166,10 +183,11 @@ header{
     color: rgb(133, 71, 27)
 }
 
-img{
+/* img{
     width: 50%;
     margin:auto 20px;
-}
+    /* position: relative; */
+/* /////; */
 
 
 /*footer*/
@@ -287,10 +305,10 @@ footer{
 
 /* sobre */
 .sobre{
-    margin: 20px ;
+    margin: 5% ;
     font-size: 20px;
     justify-content:center;
-    margin-top: 30px;
+    margin-top: 2%;
     line-height: 40px;
     text-indent: 5%;
 
